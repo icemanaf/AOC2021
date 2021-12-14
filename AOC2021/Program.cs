@@ -6,11 +6,11 @@ namespace AOC2021
 {
     class Program
     {
-        static async Task Main(string[] args)
+        static void Main(string[] args)
         {
-            var day3 = new Day3();
+            var prob = new Day13();
 
-            day3.GetAnswer();
+            prob.GetAnswer();
 
             Console.ReadLine();
 

@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace AOC2021.Tests
+
+namespace AOC2021Tests.Day3.Tests
 {
     [TestFixture]
     public class Tests
@@ -27,7 +28,7 @@ namespace AOC2021.Tests
         [Test]
         public void test_after_one_pass()
         {
-            var sut = new Day3();
+            var sut = new AOC2021.Day3();
 
             var testVals = GetTestValues();
 
@@ -42,7 +43,7 @@ namespace AOC2021.Tests
         [TestCase(23)]
         public void test_that_oxygen_value_is_correct(int expected)
         {
-            var sut = new Day3();
+            var sut = new AOC2021.Day3();
 
             var testVals = GetTestValues();
 
@@ -55,7 +56,7 @@ namespace AOC2021.Tests
         [TestCase(10)]
         public void test_that_carbon_dioxide_value_is_correct(int expected)
         {
-            var sut = new Day3();
+            var sut = new AOC2021.Day3();
 
             var testVals = GetTestValues();
 
