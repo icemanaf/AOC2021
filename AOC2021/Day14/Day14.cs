@@ -76,7 +76,8 @@ namespace AOC2021
         }
 
         /*
-            To solve this you need to use a recursive approach with dynamic programming.
+            To solve this you need to use a recursive approach with dynamic programming. you will 
+            need to use caching as the time complexity is too high.
             From the first example, search to a depth of 2
             Initial String NNCB
                         Break this into 3 strings
