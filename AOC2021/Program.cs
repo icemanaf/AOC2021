@@ -8,7 +8,7 @@ namespace AOC2021
     {
         static void Main(string[] args)
         {
-            var prob = new Day13();
+            var prob = new Day14();
 
             prob.GetAnswer();
 
