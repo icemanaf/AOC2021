@@ -75,8 +75,6 @@ namespace AOC2021Tests.Day14.Tests
 
             var poly4 = sut.GeneratePolymer(poly3, _lookUp);
 
-            int a = (int)'A';
-            int z = (int)'Z';
             var ret = poly1 + poly2;
 
             Assert.IsTrue(ret.Equals(expectedPolymer));
@@ -113,6 +111,10 @@ namespace AOC2021Tests.Day14.Tests
 
             Assert.IsTrue(max.Value==1749);
         }
+
+
+        
+
 
 
     }
